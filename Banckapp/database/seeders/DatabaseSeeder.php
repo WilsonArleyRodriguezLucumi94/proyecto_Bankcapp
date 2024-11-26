@@ -44,10 +44,7 @@ class DatabaseSeeder extends Seeder
             'name'=>'cliente',
             'email'=>'cliente@gmail.com',
             'password'=>Hash::make('123456789'),
-        ])->assignRole('cliente');
-
-
-        
+        ])->assignRole('cliente');      
 
     }
 }

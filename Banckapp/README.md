@@ -116,3 +116,19 @@ ___________________________________________________
 ___________________________________________________
 ##### - Al estar en el perfil de administrador si va a crear un nuevo usuario 
 ##### este lo va a crear con el rol de cliente automaticamente. 
+
+_______________________________
+# Despues de descargar el proyecto de git
+* Debe escribir el comando composer install para descargar los paquetes
+
+____________________
+# Instalar en npm 
+* npm install
+
+_____________________
+# Key despues de descargar el proyecto de git
+* php artisan key:generate
+* luego comandos de limpieza de laravel
+
+_________________
+# tkinter para probar el ORM

@@ -43,4 +43,10 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
         'password' => 'hashed',
     ];
+
+
+    public function cuenta_ahorro()
+    {
+        return $this->belongsTo(cuenta_de_ahorro::class);
+    }
 }

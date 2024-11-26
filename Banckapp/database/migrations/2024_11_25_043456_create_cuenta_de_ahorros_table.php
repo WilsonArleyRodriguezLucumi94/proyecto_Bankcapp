@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('cuenta_de_ahorros', function (Blueprint $table) {
             $table->id();
+            $table->integer('user_id')->constrained()->onDelete('cascade');
             $table->string('tipo_cuenta');
             $table->integer('numero_cuenta');
             $table->integer('saldo');
